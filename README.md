@@ -4,10 +4,9 @@ Create pgm map from Gazebo world file for ROS localization
 ## Environment
 Tested on Ubuntu 16.04, ROS Kinetic, Boost 1.58
 
-"protobuf compiler" is required
-```sudo apt-get install protobuf-compiler```
-May need to clean the workspace before rebuilding? 
-```rm -rf ~/catkin_ws/build/ ~/catkin_ws/devel/) ```
+"protobuf compiler" is required:  ```sudo apt-get install protobuf-compiler```
+
+May also need to clean the workspace before rebuilding:  ```rm -rf ~/catkin_ws/build/ ~/catkin_ws/devel/) ```
 
 ## Usage
 
