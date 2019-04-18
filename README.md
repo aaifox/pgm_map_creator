@@ -34,3 +34,9 @@ Currently, please update the argument value in launch/request_publisher.launch f
 [Gazebo Custom Messages](http://gazebosim.org/wiki/Tutorials/1.9/custom_messages)
 [Gazebo Perfect Map Generator](https://github.com/koenlek/ros_lemtomap/tree/154c782cf8feb9112bc928e33a59728ca2192489/st_gazebo_perfect_map_generator)
 
+## updates
+
+### change x-y (collision_map_creator.cc)
+line 120: image._view(j,count_vertical-i-1) = fill;
+origin: image._view(i,j) = fill;
+
